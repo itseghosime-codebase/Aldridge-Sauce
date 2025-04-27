@@ -52,7 +52,7 @@ const Checkout = () => {
       elements,
       clientSecret,
       confirmParams: {
-        return_url: `http://localhost:3000/success?amount=${amount}&email=${encodeURIComponent(email)}`,
+        return_url: `https://aldridge-sauce.vercel.app/success?amount=${amount}&email=${encodeURIComponent(email)}`,
         payment_method_data: {
           billing_details: {
             email: email,
