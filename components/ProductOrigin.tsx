@@ -9,7 +9,6 @@ import BeefBg from "@/assets/beef-background.webp";
 import ChickenBg from "@/assets/chicken-background.webp";
 import PorkBg from "@/assets/pork-background.webp";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { FlipText } from "./magicui/flip-text";
 import { TextAnimate } from "./magicui/text-animate";
 import { BlurFade } from "./magicui/blur-fade";
 
@@ -17,13 +16,13 @@ export default function ProductOrigin() {
   return (
     <div className="pt-20 md:pt-24 lg:pt-28 xl:pt-32 2xl:pt-36">
       <section className="container md:text-center space-y-3">
-        <FlipText
-          duration={0.1}
-          delayMultiple={0.05}
-          className="text-[#A8D6F8] -tracking-widest h2"
+        <TextAnimate
+          animation="blurInUp"
+          by="word"
+          className="text-[#A8D6F8] h2"
         >
           Born in the Backyard. Bottled for the World.
-        </FlipText>
+        </TextAnimate>
 
         <TextAnimate
           animation="blurInUp"
