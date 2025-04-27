@@ -105,7 +105,7 @@ const Checkout = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full p-3 rounded-md border"
+                className="w-full p-3 rounded-md border border-[#393939] bg-[#ffffff0d]"
                 required
               />
             </div>
