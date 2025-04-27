@@ -30,7 +30,7 @@ export default function SuccessPage() {
         <div className="text-center space-y-4 mb-6">
           <div>
             <p className="text-white text-lg">
-              A receipt has been sent to {email ? email : "your email"}{" "}
+              A receipt will be sent to {email ? email : "your email"}{" "}
               {amount
                 ? `for the
               purchase worth $${amount} `
