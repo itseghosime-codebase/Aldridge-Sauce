@@ -3,7 +3,12 @@ import React from "react";
 
 export default function LearnMore() {
   return (
-    <Link href={""}>
+    <Link
+      href={
+        "https://medium.com/@rashad.aldridge1230/rashad-aldridge-is-a-bbq-enthusiast-with-deep-roots-in-north-carolina-and-a-passion-for-bringing-cf4037839a47"
+      }
+      target="_blank"
+    >
       <button className="btn btn-outline group">
         <span className="relative z-10 group-hover:text-white transition-colors duration-500 ease-in-out">
           Learn more

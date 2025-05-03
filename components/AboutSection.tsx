@@ -37,7 +37,12 @@ export default function AboutSection() {
           </TextAnimate>
           <div className="max-w-52">
             <BlurFade inView direction="up" delay={0.4} className="w-full">
-              <Link href={""}>
+              <Link
+                href={
+                  "https://medium.com/@rashad.aldridge1230/rashad-aldridge-is-a-bbq-enthusiast-with-deep-roots-in-north-carolina-and-a-passion-for-bringing-cf4037839a47"
+                }
+                target="_blank"
+              >
                 <span className="btn btn-fill">Read more</span>
               </Link>
             </BlurFade>

@@ -37,7 +37,7 @@ export default function ProductOrigin() {
 
         <BlurFade inView direction="up" delay={0.4}>
           <div className="max-w-2xl mx-auto">
-            <Link href={""}>
+            <Link href={"/shop"}>
               <span className="btn btn-fill">
                 <p>Shop now and taste the difference</p>
                 <FaArrowRightLong />
